@@ -1,0 +1,17 @@
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-sm: 18px;
+    --font-size-base: 24px;
+  
+    /* Colors */
+    --color-2: #f8f7f9;
+    --color-1: #1f1f1f;
+  
+    /* Paddings */
+    --padding-sm: 10px;
+    --padding-md: 32px;
+  }
+  

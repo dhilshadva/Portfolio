@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .landing-page-child {
+    position: absolute;
+    top: 0;
+    left: 327px;
+    width: 1113px;
+    height: 1024px;
+  }
+  .logo {
+    position: relative;
+    display: inline-block;
+  }
+  .logo-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md) 64px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .home-parent {
+    align-items: flex-start;
+    gap: 48px;
+  }
+  .hi-im-saul-wrapper,
+  .home-parent,
+  .landing-page-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .landing-page-inner {
+    position: absolute;
+    top: 37px;
+    left: 725px;
+    align-items: center;
+    font-size: var(--font-size-sm);
+  }
+  .hi-im-saul-wrapper {
+    padding: var(--padding-sm);
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+  .im-a-uiux-designer {
+    position: relative;
+    line-height: 96px;
+    display: inline-block;
+    width: 552px;
+    flex-shrink: 0;
+  }
+  .frame-container,
+  .im-a-uiux-designer-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .im-a-uiux-designer-wrapper {
+    flex-direction: row;
+    padding: var(--padding-sm);
+    box-sizing: border-box;
+    font-size: 96px;
+  }
+  .frame-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .lorem-ipsum-dolor-sit-amet-co {
+    position: relative;
+    display: inline-block;
+    width: 490px;
+    flex-shrink: 0;
+  }
+  .frame-group,
+  .lorem-ipsum-dolor-sit-amet-co-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .lorem-ipsum-dolor-sit-amet-co-wrapper {
+    flex-direction: row;
+    padding: var(--padding-sm);
+    box-sizing: border-box;
+    color: rgba(248, 247, 249, 0.5);
+  }
+  .frame-group {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .view-my-projects {
+    position: relative;
+    font-size: var(--font-size-base);
+    display: inline-block;
+    font-family: var(--font-poppins);
+    color: var(--color-2);
+    text-align: left;
+  }
+  .frame-parent,
+  .view-my-projects-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .view-my-projects-wrapper {
+    cursor: pointer;
+    border: 2px solid var(--color-2);
+    padding: 16px var(--padding-md);
+    background-color: transparent;
+    border-radius: 16px;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 256px;
+    left: 83px;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .landing-page-item {
+    position: absolute;
+    top: 306px;
+    left: 778px;
+    border-radius: 55px;
+    width: 470px;
+    height: 464px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .instagram-icon {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .instagram-parent {
+    position: absolute;
+    top: 931px;
+    left: 103px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 84px;
+  }
+  .landing-page {
+    position: relative;
+    background-color: var(--color-1);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-2);
+    font-family: var(--font-poppins);
+  }
+  
